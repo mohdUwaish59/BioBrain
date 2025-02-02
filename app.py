@@ -105,7 +105,7 @@ if st.session_state.recommended_questions:
         
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            submit_button = st.form_submit_button("Validate All Answers", use_container_width=True)
+            submit_button = st.form_submit_button("View Answers", use_container_width=True)
         
         if submit_button:
             if not all_questions_answered:
@@ -113,8 +113,7 @@ if st.session_state.recommended_questions:
             else:
                 st.markdown("""
                     <div class="title-container">
-                        <img src="assets/dna.png" width="30" class="dna-icon">
-                        <h2>Validation Results</h2>
+                        <h2>Results</h2>
                     </div>
                     """, unsafe_allow_html=True)
                 
