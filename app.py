@@ -70,8 +70,7 @@ if st.session_state.recommended_questions:
     st.markdown("---")
     st.markdown("""
         <div class="title-container">
-            <img src="assets/dna.png" width="30" class="dna-icon">
-            <h2>Practice Questions</h2>
+            <h2>Similar Questions for practice</h2>
         </div>
         """, unsafe_allow_html=True)
     
