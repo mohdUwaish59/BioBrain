@@ -35,14 +35,13 @@ if 'generated_answer' not in st.session_state:
 # Display Title with Image
 col1, col2 = st.columns([1, 10])
 with col1:
-    st.image("assets/dna.png", width=50)  # ✅ Correctly loads image
+    st.image("assets/dna.png", width=100)  # ✅ Correctly loads image
 with col2:
     st.title("NEET Exam AI Q&A")
 st.subheader("Ask a question and get an AI-powered response!")
 
 
 # Query Section
-st.subheader("Ask your question")
 user_query = st.text_input("🔍 Enter your question:", key="query_input")
 
 # Add submit button
