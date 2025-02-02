@@ -6,6 +6,13 @@ from langchain_openai import ChatOpenAI
 from modules.query_engine import query_ncert
 from modules.question_recommend import recommend_questions
 
+# Page configuration with favicon
+st.set_page_config(
+    page_title="NEET Exam AI Q&A",
+    page_icon="assets/dna.png",
+    layout="wide"
+)
+
 # Load environment variables and setup
 load_dotenv()
 openai_api_key = st.secrets["OPENAI_API_KEY"]
@@ -17,7 +24,7 @@ if not openai_api_key:
 gpt4 = ChatOpenAI(model_name="gpt-4", openai_api_key=openai_api_key)
 logging.basicConfig(filename="logs/app.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Initialize session state for storing answers and recommendations
+# Initialize session state
 if 'user_answers' not in st.session_state:
     st.session_state.user_answers = {}
 if 'recommended_questions' not in st.session_state:
@@ -25,8 +32,31 @@ if 'recommended_questions' not in st.session_state:
 if 'generated_answer' not in st.session_state:
     st.session_state.generated_answer = None
 
-# Streamlit UI
-st.title("📚 NEET Exam AI Q&A")
+# Custom CSS for image styling
+st.markdown("""
+    <style>
+        .dna-icon {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .stButton > button {
+            width: 100%;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Custom title with DNA icon
+st.markdown("""
+    <div class="title-container">
+        <img src="assets/dna.png" width="50" class="dna-icon">
+        <h1>NEET Exam AI Q&A</h1>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Query Section
 st.subheader("Ask your question")
@@ -36,7 +66,6 @@ user_query = st.text_input("🔍 Enter your question:", key="query_input")
 if st.button("Submit Question", key="submit_query"):
     if user_query:
         with st.spinner("🔎 Generating Answer..."):
-            # Get context and generate answer
             retrieved_context = query_ncert(user_query, top_k=3)
             combined_context = "\n".join(retrieved_context)
             
@@ -47,57 +76,53 @@ if st.button("Submit Question", key="submit_query"):
             gpt_response = gpt4.invoke(gpt_prompt)
             st.session_state.generated_answer = gpt_response.content if hasattr(gpt_response, "content") else "⚠ Error: No response generated."
             
-            # Generate recommended questions
             st.session_state.recommended_questions = recommend_questions(user_query, top_k=5)
 
-# Display the generated answer in a card-like container
+# Display the generated answer
 if st.session_state.generated_answer:
     st.subheader("📝 AI Response")
     with st.container():
         st.write(st.session_state.generated_answer)
 
-# Practice Questions Section - Full Width
+# Practice Questions Section
 if st.session_state.recommended_questions:
-    st.markdown("---")  # Add a visual separator
-    st.subheader("🔁 Practice Questions")
+    st.markdown("---")
+    st.markdown("""
+        <div class="title-container">
+            <img src="assets/dna.png" width="30" class="dna-icon">
+            <h2>Practice Questions</h2>
+        </div>
+        """, unsafe_allow_html=True)
     
-    # Create a form for all questions
     with st.form(key="practice_questions"):
         all_questions_answered = True
         
-        # Create columns for each question to utilize space better
         for idx, (question, options) in enumerate(st.session_state.recommended_questions, start=1):
             with st.container():
                 st.write(f"\n### Question {idx}")
                 st.write(question)
                 
-                # Add some spacing for better readability
                 st.markdown("<br>", unsafe_allow_html=True)
                 
-                # Prepare radio button choices
                 valid_options = [opt for opt in options if opt.strip()]
-                col1, col2 = st.columns([3, 1])  # Create columns for question and options
+                col1, col2 = st.columns([3, 1])
                 
                 with col1:
                     selected_answer = st.radio(
                         f"Select your answer:",
                         valid_options,
                         key=f"q{idx}",
-                        index=None  # No default selection
+                        index=None
                     )
                 
-                # Track if all questions are answered
                 if selected_answer is None:
                     all_questions_answered = False
                 
-                # Store answer in session state
                 if selected_answer:
                     st.session_state.user_answers[question] = selected_answer
                 
-                # Add visual separator between questions
                 st.markdown("---")
         
-        # Submit button for validation
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
             submit_button = st.form_submit_button("Validate All Answers", use_container_width=True)
@@ -106,9 +131,13 @@ if st.session_state.recommended_questions:
             if not all_questions_answered:
                 st.warning("⚠️ Please answer all questions before validating.")
             else:
-                st.subheader("✅ Validation Results")
+                st.markdown("""
+                    <div class="title-container">
+                        <img src="assets/dna.png" width="30" class="dna-icon">
+                        <h2>Validation Results</h2>
+                    </div>
+                    """, unsafe_allow_html=True)
                 
-                # Create a grid for validation results
                 for question, answer in st.session_state.user_answers.items():
                     validation_context = query_ncert(question, top_k=3)
                     combined_validation_context = "\n".join(validation_context)
@@ -119,7 +148,6 @@ if st.session_state.recommended_questions:
                     ]
                     validation_response = gpt4.invoke(validation_prompt)
                     
-                    # Display validation in a clean, card-like format
                     with st.expander(f"Question {list(st.session_state.user_answers.keys()).index(question) + 1} Feedback"):
                         st.markdown(f"**Your Answer:** {answer}")
                         st.markdown("**Feedback:**")
