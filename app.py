@@ -12,7 +12,7 @@ load_dotenv()
 # Use Streamlit secrets for deployment, fallback to .env for local testing
 #openai_api_key = st.secrets["OPENAI_API_KEY"] if "OPENAI_API_KEY" in st.secrets else os.getenv("OPENAI_API_KEY")
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 # Check if API key exists
 if not openai_api_key:
