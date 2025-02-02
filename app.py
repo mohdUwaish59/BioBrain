@@ -47,7 +47,7 @@ user_query = st.text_input("🔍 Enter your question:", key="query_input")
 if st.button("Submit Question", key="submit_query"):
     if user_query:
         with st.spinner("🔎 Generating Answer..."):
-            retrieved_context = query_ncert(user_query, top_k=3)
+            retrieved_context = query_ncert(user_query, top_k=6)
             combined_context = "\n".join(retrieved_context)
             
             gpt_prompt = [
