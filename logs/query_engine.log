@@ -1,0 +1,188 @@
+2025-02-02 02:35:23,804 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:35:23,804 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:35:27,230 - INFO - \u2705 Query: According to the five kingdom classification, bacteria belong to | Retrieved 3 results
+2025-02-02 02:35:28,065 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 404 Not Found"
+2025-02-02 02:39:01,586 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:39:01,586 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:39:04,668 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:39:06,150 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:39:06,204 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:39:06,204 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:39:08,514 - INFO - \u2705 Recommended 5 questions for query: In five kingdom classification, Euglena is placed in?
+2025-02-02 02:41:40,707 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:41:40,707 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:41:43,891 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:41:45,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:43:59,682 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:43:59,682 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:44:02,830 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:44:04,110 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:46:00,800 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:46:00,800 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:46:03,355 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:46:04,522 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:46:04,530 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:46:04,530 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:46:06,684 - INFO - \u2705 Recommended 5 questions for query: In five kingdom classification, Euglena is placed in?
+2025-02-02 02:50:08,284 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:50:08,284 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:50:11,349 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:50:12,892 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:50:13,038 - ERROR - \u274c Error recommending questions: Dataset must have 'Question' and at least 'Option A' columns.
+Traceback (most recent call last):
+  File "C:\Users\Mohd Uwaish\Desktop\ME\DataScience\BioBrain\modules\question_recommend.py", line 25, in recommend_questions
+    raise ValueError("Dataset must have 'Question' and at least 'Option A' columns.")
+ValueError: Dataset must have 'Question' and at least 'Option A' columns.
+2025-02-02 02:55:09,786 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:55:09,786 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:55:12,269 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:55:13,753 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:55:13,867 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:55:13,867 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:55:16,336 - INFO - \u2705 Recommended 5 questions for query: In five kingdom classification, Euglena is placed in?
+2025-02-02 02:58:56,276 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:58:56,276 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:58:59,026 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:59:00,690 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:59:00,790 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:00,790 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:02,856 - INFO - \u2705 Recommended 5 questions for query: In five kingdom classification, Euglena is placed in?
+2025-02-02 02:59:13,587 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:13,587 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:16,486 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:59:17,547 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:59:17,663 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:17,663 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:20,026 - INFO - \u2705 Recommended 5 questions for query: In five kingdom classification, Euglena is placed in?
+2025-02-02 02:59:32,187 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:32,187 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:34,600 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in? | Retrieved 3 results
+2025-02-02 02:59:36,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:59:36,151 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:36,151 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:38,257 - INFO - \u2705 Recommended 5 questions for query: In five kingdom classification, Euglena is placed in?
+2025-02-02 02:59:38,291 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:38,291 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:40,732 - INFO - \u2705 Query: In five kingdom classification, Euglena is placed in | Retrieved 3 results
+2025-02-02 02:59:42,927 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:59:42,948 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:42,948 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:45,249 - INFO - \u2705 Query: In the five-kingdom system of classification, which single kingdom out of the following can include bluegreen algae, nitrogen fixing bacteria and methanogenic Archaebacteria? | Retrieved 3 results
+2025-02-02 02:59:49,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:59:49,905 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:49,905 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:52,410 - INFO - \u2705 Query: Draw a well labelled diagram of
+Euglena. | Retrieved 3 results
+2025-02-02 02:59:55,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 02:59:55,144 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:59:55,144 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:59:57,732 - INFO - \u2705 Query: In Whittaker's five kingdom system of classification, eukaryotes are distributed among | Retrieved 3 results
+2025-02-02 03:00:00,345 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:00:00,361 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:00:00,361 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:00:13,402 - INFO - \u2705 Query: Which of the following does not belong to the kingdom Protista? | Retrieved 3 results
+2025-02-02 03:00:16,472 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:01:04,803 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:01:04,803 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:01:07,615 - INFO - \u2705 Query: In which of the following, segmentation  | Retrieved 3 results
+2025-02-02 03:01:08,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:01:08,614 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:01:08,614 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:01:11,314 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation 
+2025-02-02 03:01:22,878 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:01:22,878 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:01:26,209 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) | Retrieved 3 results
+2025-02-02 03:01:27,886 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:01:27,982 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:01:27,982 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:01:30,374 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A)
+2025-02-02 03:01:39,116 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:01:39,116 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:01:41,420 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) | Retrieved 3 results
+2025-02-02 03:01:43,268 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:01:43,365 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:01:43,365 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:01:45,439 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B)
+2025-02-02 03:01:58,968 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:01:58,968 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:03,091 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D) | Retrieved 3 results
+2025-02-02 03:02:04,053 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:02:04,175 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:04,175 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:06,731 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)
+2025-02-02 03:02:09,136 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:09,136 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:12,389 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes | Retrieved 3 results
+2025-02-02 03:02:13,108 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:02:13,223 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:13,223 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:15,742 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes
+2025-02-02 03:02:25,598 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:25,598 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:28,667 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes | Retrieved 3 results
+2025-02-02 03:02:29,121 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:02:29,243 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:29,243 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:32,120 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes
+2025-02-02 03:02:38,762 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:38,762 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:41,574 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes | Retrieved 3 results
+2025-02-02 03:02:43,234 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:02:43,336 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:43,336 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:45,732 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes
+2025-02-02 03:02:48,578 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:48,578 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:51,907 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes | Retrieved 3 results
+2025-02-02 03:02:52,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:02:52,782 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:02:52,782 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:02:55,056 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes
+2025-02-02 03:03:04,253 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:04,253 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:03:06,760 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes | Retrieved 3 results
+2025-02-02 03:03:07,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:03:07,621 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:07,621 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:03:09,900 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes
+2025-02-02 03:03:11,415 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:11,415 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:03:13,936 - INFO - \u2705 Query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes | Retrieved 3 results
+2025-02-02 03:03:15,271 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:03:15,380 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:15,380 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:03:17,998 - INFO - \u2705 Recommended 5 questions for query: In which of the following, segmentation in the body is first observed? A) Aschelminthes B) Arthropoda C) Annelida D)Platyhelminthes
+2025-02-02 03:03:18,039 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:18,039 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:03:20,378 - INFO - \u2705 Query: Which one of the following correctly describes the location of some body parts in the earthworm (Pheretima)? | Retrieved 3 results
+2025-02-02 03:03:22,251 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:03:22,271 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:22,272 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:03:24,260 - INFO - \u2705 Query: Very short answer type.
+How does the segmentation of an annelid worm differ from the repeating units of the body of a tapeworm? | Retrieved 3 results
+2025-02-02 03:03:52,872 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:03:52,881 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:52,881 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:03:55,109 - INFO - \u2705 Query: Identify the correct order of appearance of the following organisms on the
+surface of earth. | Retrieved 3 results
+2025-02-02 03:03:59,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:03:59,209 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:03:59,212 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:04:01,677 - INFO - \u2705 Query: Study the statements about chordates
+and identify correct ones:
+(a) Columella auris present in the middle year of amphibians is modified hyomandibula of fishes.
+(b) Reptiles lay cleidoic eggs.
+(c) Sphenodon is connecting link between amphibians and reptiles.
+(d) Panthera tigris is an extinct animal of India.
+\( A \cdot(a),(c) \) | Retrieved 3 results
+2025-02-02 03:04:09,761 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-02 03:04:09,781 - INFO - Use pytorch device_name: cpu
+2025-02-02 03:04:09,781 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 03:04:12,104 - INFO - \u2705 Query: Assertion
+Heteronomous segmentation, i.e., the division of labor resulting in
+dissimilarity of the metamers of the
+different regions of the body, is found in the phyla Annelida, Arthropoda and
+Chordata.
+Reason
+None of these have true coelom. | Retrieved 3 results
+2025-02-02 03:04:17,457 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

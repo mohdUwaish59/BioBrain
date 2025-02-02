@@ -1,0 +1,27 @@
+2025-02-01 20:10:48,808 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:10:48,809 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:10:50,562 - INFO - \u2705 Successfully stored 6 question embeddings in FAISS.
+2025-02-01 20:10:50,565 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:10:50,566 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:10:51,970 - INFO - \u2705 Recommended 5 questions for query: Tell me about bacteria in Kingdom Monera
+2025-02-01 20:15:43,914 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:15:43,914 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:17:28,172 - INFO - \u2705 Successfully stored 13124 question embeddings in FAISS.
+2025-02-01 20:17:28,181 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:17:28,181 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:17:29,730 - INFO - \u2705 Recommended 5 questions for query: Tell me about bacteria in Kingdom Monera
+2025-02-01 20:20:00,009 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:20:00,009 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:20:01,718 - INFO - \u2705 Recommended 5 questions for query: Which one of the following is not true of organisms included in the kingdom Monera?
+2025-02-01 20:20:40,968 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:20:40,968 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:20:42,507 - INFO - \u2705 Recommended 20 questions for query: Which one of the following is not true of organisms included in the kingdom Monera?
+2025-02-01 20:23:30,743 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:23:30,743 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:23:32,918 - INFO - \u2705 Recommended 20 questions for query: Radish is an example of
+2025-02-01 20:24:53,690 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:24:53,690 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:24:55,306 - INFO - \u2705 Recommended 20 questions for query: Microorganisms commonly causing diarrhoeal diseases are
+2025-02-01 20:29:19,659 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:29:19,659 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:29:21,236 - INFO - \u2705 Recommended 20 questions for query: Which of the following groups is NOT included in the Kingdom Plantae?

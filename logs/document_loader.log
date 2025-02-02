@@ -1,0 +1,755 @@
+2025-02-01 19:18:23,491 - INFO - Loading faiss with AVX512 support.
+2025-02-01 19:18:23,491 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-02-01 19:18:23,491 - INFO - Loading faiss with AVX2 support.
+2025-02-01 19:18:23,538 - INFO - Successfully loaded faiss with AVX2 support.
+2025-02-01 19:18:23,539 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-02-01 19:18:28,536 - INFO - Loading: dataset/data\kebo101.pdf using pypdf
+2025-02-01 19:18:28,897 - INFO - Loading: dataset/data\kebo102.pdf using pypdf
+2025-02-01 19:18:40,922 - INFO - Loading: dataset/data\kebo103.pdf using pypdf
+2025-02-01 19:18:51,061 - INFO - Successfully loaded 36 documents from dataset/data
+2025-02-01 19:18:51,265 - INFO - \u2705 Initialized TokenTextSplitter with chunk_size=512, chunk_overlap=100
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,265 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully cleaned text.
+2025-02-01 19:18:51,281 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-01 19:18:51,281 - INFO - Use pytorch device_name: cpu
+2025-02-01 19:18:51,281 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 19:18:54,412 - INFO - \u2705 Successfully stored 54 document chunks in FAISS.
+2025-02-01 19:18:54,428 - INFO - Use pytorch device_name: cpu
+2025-02-01 19:18:54,428 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 19:18:55,786 - INFO - \u2705 Query: What are the characteristics of Kingdom Monera? | Retrieved 3 results
+2025-02-01 19:24:16,783 - INFO - Loading faiss with AVX512 support.
+2025-02-01 19:24:16,783 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-02-01 19:24:16,783 - INFO - Loading faiss with AVX2 support.
+2025-02-01 19:24:16,814 - INFO - Successfully loaded faiss with AVX2 support.
+2025-02-01 19:24:16,830 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-02-01 19:24:21,798 - INFO - Use pytorch device_name: cpu
+2025-02-01 19:24:21,798 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 19:24:23,424 - INFO - \u2705 Query: Which one of the following is not true of organisms included in the kingdom
+Monera?",A) They reproduce by mitosis, B) They originated at least 3.5 billion years ago, C) Most have cell walls, D) They have prokaryotic cellular organisation | Retrieved 3 results
+2025-02-01 20:27:24,437 - INFO - Loading faiss with AVX512 support.
+2025-02-01 20:27:24,437 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-02-01 20:27:24,437 - INFO - Loading faiss with AVX2 support.
+2025-02-01 20:27:24,469 - INFO - Successfully loaded faiss with AVX2 support.
+2025-02-01 20:27:24,469 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-02-01 20:27:29,360 - INFO - Use pytorch device_name: cpu
+2025-02-01 20:27:29,360 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-01 20:27:30,989 - INFO - \u2705 Query: 
+    Which of the following groups is NOT included in the Kingdom Plantae?
+     | Retrieved 3 results
+2025-02-02 01:51:49,618 - INFO - Loading faiss with AVX512 support.
+2025-02-02 01:51:49,618 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-02-02 01:51:49,618 - INFO - Loading faiss with AVX2 support.
+2025-02-02 01:51:49,738 - INFO - Successfully loaded faiss with AVX2 support.
+2025-02-02 01:51:49,748 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-02-02 01:52:10,347 - INFO - Loading faiss with AVX512 support.
+2025-02-02 01:52:10,347 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-02-02 01:52:10,347 - INFO - Loading faiss with AVX2 support.
+2025-02-02 01:52:10,397 - INFO - Successfully loaded faiss with AVX2 support.
+2025-02-02 01:52:10,406 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-02-02 01:52:20,456 - INFO - Use pytorch device_name: cpu
+2025-02-02 01:52:20,456 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 01:52:23,286 - ERROR - \u274c FAISS index not found.
+2025-02-02 01:53:16,485 - INFO - Loading faiss with AVX512 support.
+2025-02-02 01:53:16,485 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-02-02 01:53:16,485 - INFO - Loading faiss with AVX2 support.
+2025-02-02 01:53:16,526 - INFO - Successfully loaded faiss with AVX2 support.
+2025-02-02 01:53:16,533 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-02-02 01:53:22,680 - INFO - Loading: dataset/data\kebo101.pdf using pypdf
+2025-02-02 01:53:23,138 - INFO - Loading: dataset/data\kebo102.pdf using pypdf
+2025-02-02 01:53:48,209 - INFO - Loading: dataset/data\kebo103.pdf using pypdf
+2025-02-02 01:54:00,149 - INFO - Loading: dataset/data\kebo104.pdf using pypdf
+2025-02-02 01:54:21,138 - INFO - Loading: dataset/data\kebo105.pdf using pypdf
+2025-02-02 01:54:40,211 - INFO - Loading: dataset/data\kebo106.pdf using pypdf
+2025-02-02 01:54:42,724 - INFO - Loading: dataset/data\kebo107.pdf using pypdf
+2025-02-02 01:54:43,750 - INFO - Loading: dataset/data\kebo108.pdf using pypdf
+2025-02-02 01:55:10,712 - INFO - Loading: dataset/data\kebo109.pdf using pypdf
+2025-02-02 01:55:11,284 - INFO - Loading: dataset/data\kebo110.pdf using pypdf
+2025-02-02 01:55:25,755 - INFO - Loading: dataset/data\kebo111.pdf using pypdf
+2025-02-02 01:55:28,210 - INFO - Loading: dataset/data\kebo112.pdf using pypdf
+2025-02-02 01:55:28,673 - INFO - Loading: dataset/data\kebo113.pdf using pypdf
+2025-02-02 01:55:31,376 - INFO - Loading: dataset/data\kebo114.pdf using pypdf
+2025-02-02 01:55:37,240 - INFO - Loading: dataset/data\kebo115.pdf using pypdf
+2025-02-02 01:55:38,359 - INFO - Loading: dataset/data\kebo116.pdf using pypdf
+2025-02-02 01:55:41,942 - INFO - Loading: dataset/data\kebo117.pdf using pypdf
+2025-02-02 01:55:59,369 - INFO - Loading: dataset/data\kebo118.pdf using pypdf
+2025-02-02 01:56:16,769 - INFO - Loading: dataset/data\kebo119.pdf using pypdf
+2025-02-02 01:56:20,483 - INFO - Loading: dataset/data\lebo101.pdf using pypdf
+2025-02-02 02:07:04,752 - INFO - Loading: dataset/data\lebo102.pdf using pypdf
+2025-02-02 02:18:53,590 - INFO - Loading: dataset/data\lebo103.pdf using pypdf
+2025-02-02 02:18:53,590 - ERROR - Error loading PDFs: File path dataset/data\lebo103.pdf is not a valid file or url
+Traceback (most recent call last):
+  File "C:\Users\Mohd Uwaish\Desktop\ME\DataScience\BioBrain\modules\document_loader.py", line 25, in load_pdfs
+    loader = LoaderClass(pdf_path)
+  File "C:\Users\Mohd Uwaish\Desktop\ME\DataScience\BioBrain\bb-env\lib\site-packages\langchain_community\document_loaders\pdf.py", line 263, in __init__
+    super().__init__(file_path, headers=headers)
+  File "C:\Users\Mohd Uwaish\Desktop\ME\DataScience\BioBrain\bb-env\lib\site-packages\langchain_community\document_loaders\pdf.py", line 140, in __init__
+    raise ValueError("File path %s is not a valid file or url" % self.file_path)
+ValueError: File path dataset/data\lebo103.pdf is not a valid file or url
+2025-02-02 02:18:54,012 - INFO - \u2705 Initialized TokenTextSplitter with chunk_size=512, chunk_overlap=100
+2025-02-02 02:18:54,019 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,023 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,023 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,023 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,023 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,023 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,023 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,029 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,029 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,031 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,031 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,031 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,031 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,031 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,035 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,035 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,035 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,037 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,037 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,039 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,046 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,046 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,046 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,046 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,049 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,049 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,049 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,049 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,049 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,049 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,049 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,054 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,054 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,057 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,057 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,057 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,057 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,057 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,057 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,059 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,060 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,060 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,060 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,060 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,060 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,060 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,060 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,064 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,068 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,068 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,069 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,069 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,069 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,072 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,078 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,078 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,079 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,079 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,079 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,080 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,089 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,098 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,098 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,099 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,106 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,109 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,115 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,115 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,115 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,115 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,115 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,115 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,119 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,122 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,123 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,129 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,129 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,129 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,130 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,139 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,144 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,147 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,147 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,147 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,147 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,149 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,154 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,154 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,154 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,154 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,156 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,159 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,164 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,169 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,172 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,178 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,178 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,179 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,180 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,181 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,189 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,190 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,197 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,198 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,198 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,198 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,198 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,199 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,204 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,204 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,204 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,204 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,204 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,205 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,206 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,209 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,214 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,219 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,222 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,229 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,229 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,229 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,230 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,231 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,239 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,247 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,247 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,247 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,249 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,254 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,254 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,254 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,254 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,254 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,254 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,256 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,259 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully split text into 1 chunks.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully cleaned text.
+2025-02-02 02:18:54,263 - INFO - \u2705 Successfully split text into 2 chunks.
+2025-02-02 02:18:54,279 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:18:54,279 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:19:19,938 - INFO - \u2705 Successfully stored 416 document chunks in FAISS.
+2025-02-02 02:19:19,947 - INFO - Use pytorch device_name: cpu
+2025-02-02 02:19:19,947 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-02 02:19:22,171 - INFO - \u2705 Query: 
+    Which of the following groups is NOT included in the Kingdom Plantae?
+     | Retrieved 3 results
