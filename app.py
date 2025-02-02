@@ -8,9 +8,8 @@ from modules.question_recommend import recommend_questions
 
 # Page configuration with favicon
 st.set_page_config(
-    page_title="NEET Exam AI Q&A",
-    page_icon="assets/dna.png",
-    layout="wide"
+    page_title="BioBrain",
+    page_icon="assets/dna.png"
 )
 
 # Load environment variables and setup
