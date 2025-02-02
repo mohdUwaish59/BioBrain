@@ -32,31 +32,14 @@ if 'recommended_questions' not in st.session_state:
 if 'generated_answer' not in st.session_state:
     st.session_state.generated_answer = None
 
-# Custom CSS for image styling
-st.markdown("""
-    <style>
-        .dna-icon {
-            margin-right: 10px;
-            vertical-align: middle;
-        }
-        .title-container {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-        .stButton > button {
-            width: 100%;
-        }
-    </style>
-    """, unsafe_allow_html=True)
+# Display Title with Image
+col1, col2 = st.columns([1, 10])
+with col1:
+    st.image("assets/dna.png", width=50)  # ✅ Correctly loads image
+with col2:
+    st.title("NEET Exam AI Q&A")
+st.subheader("Ask a question and get an AI-powered response!")
 
-# Custom title with DNA icon
-st.markdown("""
-    <div class="title-container">
-        <img src="assets/dna.png" width="50" class="dna-icon">
-        <h1>NEET Exam AI Q&A</h1>
-    </div>
-    """, unsafe_allow_html=True)
 
 # Query Section
 st.subheader("Ask your question")
