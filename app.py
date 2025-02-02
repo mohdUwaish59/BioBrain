@@ -37,8 +37,8 @@ col1, col2 = st.columns([1, 10])
 with col1:
     st.image("assets/dna.png", width=100)  # ✅ Correctly loads image
 with col2:
-    st.title("NEET Exam AI Q&A")
-st.subheader("Ask a question and get an AI-powered response!")
+    st.title("BioBrain")
+    st.subheader("Your biology mentor for Neet Exam")
 
 
 # Query Section
