@@ -61,7 +61,7 @@ if st.button("Submit Question", key="submit_query"):
 
 # Display the generated answer
 if st.session_state.generated_answer:
-    st.subheader("📝 AI Response")
+    st.subheader("📝 BioBrain's Response:")
     with st.container():
         st.write(st.session_state.generated_answer)
 
